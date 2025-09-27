@@ -1,0 +1,20 @@
+.completed {
+            text-decoration: line-through;
+            color: gray;
+        }
+        .task-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .task-row button {
+            margin-left: 10px;
+        }
+        #listaTareas {
+            list-style: none;
+            padding: 0;
+        }
+        .resumen {
+            margin-bottom: 20px;
+        }
